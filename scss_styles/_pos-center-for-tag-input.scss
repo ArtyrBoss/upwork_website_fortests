@@ -1,0 +1,11 @@
+.pos-center-for-tag-input {
+  width: 84%;
+  max-width: 420px;
+  padding-top: 5px;
+}
+
+@media screen and (max-width: 321px) {
+  .pos-center-for-tag-input {
+    width: 81%;
+  }
+}

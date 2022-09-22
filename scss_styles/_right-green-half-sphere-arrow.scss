@@ -1,0 +1,10 @@
+.wrapper-right-green-half-sphere-arrow {
+  position: relative;
+}
+
+.right-green-half-sphere-arrow::after {
+  position: absolute;
+  content: url("../img/half-sphere.svg");
+  right: 13px;
+  margin-top: -10px;
+}

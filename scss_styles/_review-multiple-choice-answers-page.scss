@@ -1,0 +1,78 @@
+.review-answers-section__btn-wrapper .qn-btn-time-wrapper{
+  bottom: -30px;
+}
+
+.review-answers-section__wrapper-for-answers .review-answers-section__answer {
+  color: #333333;
+  border: none;
+}
+
+.review-answers-section__answer:after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  height: 24px;
+  width: 24px;
+  border: 1px solid #C4C4C4;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+}
+
+.correct-selected-answer, .without-check-icon-answer, .answer-was-skipped {
+  border: 1px solid #3dd3a6!important;
+  color: #3dd3a6!important;
+}
+
+.correct-selected-answer--green-bk {
+  border: 1px solid #3dd3a6!important;
+  color: #FFFFFF!important;
+  background-color: #43D3A6!important;
+
+  &::after {
+    border: none;
+    background-size: 24px;
+    background-image: url("../img/checked-with-white-arrow-icom.svg");
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
+}
+
+.correct-selected-answer:after {
+  border: none;
+  background-size: 24px;
+  background-image: url("../img/checked-icon.svg");
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.wrong-selected-answer:after {
+  border: none;
+  background-size: 24px;
+  background-image: url("../img/wrong-answer-icon.svg");
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.wrong-selected-answer {
+  border: 1px solid #F05858!important;
+  color: #F05858!important;
+}
+
+.without-check-icon-answer:after {
+  border: none;
+  top: 20px;
+  right: 10px;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+}
+
+.answer-was-skipped:after {
+  content: "Skip";
+  color: #333333;
+  font-size: 14px;
+  border: none;
+  right: 15px;
+}

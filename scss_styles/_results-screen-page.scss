@@ -1,0 +1,202 @@
+.result-page-section {
+  padding: 0 15px;
+}
+
+.result-page-section .custom-checkbox {
+  min-height: 70px;
+  height: auto;
+  text-align: center;
+  padding-right: 15px;
+  padding-left: 30px;
+}
+
+.result-page-section__letter-wrapper {
+  margin-left: 15px;
+}
+
+.test-section__qn-letter {
+  padding-right: 15px;
+}
+
+.result-page-section--answered-text {
+  max-width: 320px;
+  text-align: left;
+  padding: 10px 25px 10px 10px;
+}
+
+.test-section__qn-number {
+  position: absolute;
+  left: 60px;
+}
+
+.review-answers-section__answer .result-page-section__qn-time-clock {
+  font-size: 16px;
+  position: absolute;
+  right: 8px;
+}
+
+.review-answers-section__answer .result-page-section__qn-time-clock:before {
+  content: url("../img/clock-icon.svg");
+  position: absolute;
+  top: 0;
+  left: -20px;
+}
+
+.result-page-section__answers-wrapper .correct-answer-letter {
+  color: #43d3a6;
+}
+.result-page-section__answers-wrapper .wrong-answer-letter {
+  color: #F05858;
+}
+
+.result-page-section__answers-wrapper .correct-selected-answer:after,
+.result-page-section__answers-wrapper .wrong-selected-answer:after,
+.result-page-section__answers-wrapper .answer-was-skipped:after {
+  width: 30px;
+  height: 30px;
+  background-size: 30px;
+  left: 10px;
+}
+
+.result-page-section__answers-wrapper .answer-was-skipped:after {
+  font-weight: 500;
+  text-transform: uppercase;
+  top: 50%;
+  margin-top: -10px;
+}
+
+.result-page-section__answers-wrapper .wrong-selected-answer:after {
+
+}
+
+.result-page-section__answers-wrapper .correct-selected-answer, .result-page-section__answers-wrapper .wrong-selected-answer, .result-page-section__answers-wrapper .answer-was-skipped {
+  border: none!important;
+  color: #333333!important;
+}
+
+.result-page-section__header-wrapper {
+  box-shadow: 0 5px 6.5px -6px #bcbcbc;
+}
+
+.result-page-section__score-wrapper {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 2px 2px 6.5px 0 #e0e0e0;
+  margin-top: -57px;
+  padding-top: 0;
+}
+
+.result-page-section__score-wrapper h2 {
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  margin-left: 50px;
+  padding-top: 0;
+  margin-top: 13px;
+  &:before {
+    content: url("../img/checked-icon.svg");
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    left: -40px;
+    top: 0;
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid #CECECE;
+    width: 50px;
+    left: -9px;
+    top: 70px;
+    transform: rotate(-90deg);
+  }
+}
+
+.result-page-section__score-wrapper div {
+  margin-bottom: 10px;
+}
+
+.result-page-section__score-wrapper--text-time-wrapper {
+  min-width: 116px;
+
+
+  &:first-child {
+    margin-right: 16px;
+  }
+
+  &:last-child {
+    margin-left: 16px;
+  }
+}
+
+.result-page-section__score-wrapper p {
+  font-size: 16px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.result-page-section__score-wrapper span {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+.result-page-section__btn-link-wrapper {
+  background-color: #FFFFFF;
+  position: fixed;
+  height: 100px;
+  bottom: 0;
+  max-width: $mediaMaxWidthMobile;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.result-page-section .common-button--orange-color{
+  left: 36px;
+  right: 36px;
+  bottom: 15px;
+}
+
+.test-result-header-and-notice {
+  margin-top: 20px;
+}
+
+.test-result-header-and-notice__header {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.88px;
+}
+
+.test-result-header-and-notice__notice-correct, .test-result-header-and-notice__notice-Incorrect {
+  font-size: 14px;
+  letter-spacing: 0.88px;
+  font-weight: 500;
+  position: relative;
+}
+
+.test-result-header-and-notice__notice-correct:before, .test-result-header-and-notice__notice-Incorrect:before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  top: 3px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #43D3A6;
+}
+
+.test-result-header-and-notice__notice-correct {
+  padding-right: 13px;
+}
+
+.test-result-header-and-notice__notice-Incorrect:before {
+  background-color: #F05858;
+  left: -5px;
+}
+
+.test-result-header-and-notice__notice-Incorrect {
+  padding-left: 10px;
+}
+

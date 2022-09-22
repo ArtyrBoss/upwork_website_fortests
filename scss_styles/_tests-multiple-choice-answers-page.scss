@@ -1,0 +1,29 @@
+/* On mouse-over, add a grey background color */
+.test-section__form .custom-checkbox:hover {
+  border: 1px solid #43D3A6;
+  color: #43D3A6;
+}
+
+.test-section__form .checkmark {
+  top: 17px;
+  right: 15px;
+  height: 24px;
+  width: 24px;
+}
+
+.test-section__form .checkmark:after {
+  left: 8px;
+  top: 5px;
+  width: 8px;
+  height: 13px;
+}
+
+.test-section__qn-letter {
+  font-size: 18px;
+  font-weight: 500;
+  padding-right: 10px;
+}
+
+.test-section .burger-menu, .test-section .dot-img-menu {
+  z-index: 11;
+}

@@ -1,0 +1,102 @@
+@import "variables";
+
+.login-section {
+  margin-top: 20%;
+}
+
+.login-section__header {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0.88px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.logo__google {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.88px;
+  color: #4384F3;
+  margin-right: 15px;
+}
+
+.logo__google img {
+  display: inline-block;
+  margin-right: 15px;
+  width: 28px;
+}
+
+.login-section__google-logo-wrapper {
+  height: 50px;
+  margin-left: 38px;
+  margin-right: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px 0 #979797;
+  margin-bottom: 50px;
+}
+
+input:first-child {
+  margin-bottom: 10px;
+}
+
+input[type=submit] {
+  margin-top: 55px;
+}
+
+.login__acc-qn, .login__acc-qn a, .login_forget-pass a {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.login_forget-pass {
+  margin-left: 30px;
+}
+
+.login__acc-qn {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.login__acc-qn a {
+  font-weight: 600;
+}
+
+.login__acc-qn, .login__acc-qn a {
+  letter-spacing: 0.26px;
+}
+
+.login_horizontal-line {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.login_horizontal-line {
+  max-width: $mediaMaxWidthMobile;
+  position: relative;
+  margin-left: 38px;
+  margin-right: 30px;
+}
+
+.login_horizontal-line:before {
+  content: "";
+  display: block;
+  width: 42%;
+  height: 1px;
+  background: #CECECE;
+  left: 0;
+  top: 50%;
+  position: absolute;
+}
+
+.login_horizontal-line:after {
+  content: "";
+  display: block;
+  width: 42%;
+  height: 1px;
+  background: #CECECE;
+  right: 0;
+  top: 50%;
+  position: absolute;
+}

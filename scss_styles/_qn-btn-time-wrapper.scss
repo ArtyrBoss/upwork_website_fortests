@@ -1,0 +1,50 @@
+.qn-btn-time-wrapper {
+  position: fixed;
+  margin-top: 20px;
+  left: 25px;
+  right: 25px;
+  bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #F7F7F7;
+  max-width: 480px;
+  height: 163px;
+}
+
+.qn-btn-time-wrapper__wrapper {
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.qn-btn-time-wrapper__prev-btn, .qn-btn-time-wrapper__next-btn {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.88px;
+  color: #FA6439;
+  width: 100px;
+  height: 50px;
+  background-color: inherit;
+  border: 2px solid #FA6439;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.qn-btn-time-wrapper__next-btn {
+  background-color: #FA6439;
+  color: #FFFFFF;
+}
+
+.qn-btn-time-wrapper__time {
+  text-align: center;
+  margin-top: 20px;
+  line-height: 25px;
+}
+
+.qn-btn-time-wrapper__time span {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.88px;
+  &:last-child {
+    font-weight: normal;
+  }
+}

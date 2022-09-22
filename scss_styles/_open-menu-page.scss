@@ -1,0 +1,27 @@
+.menu-section__close-menu-btn {
+  background-color: #FFFFFF;
+  border: none;
+  font-size: 16px;
+  text-align: left;
+  color: #000000;
+
+  margin-top: 62px;
+  margin-bottom: 25px;
+  margin-left: 8px;
+  font-weight: 500;
+}
+
+.menu-section__close-menu-btn::before {
+  content: url("../img/close-menu-icon.svg");
+  position: relative;
+  top: 5px;
+  padding-right: 6px;
+}
+
+.menu-section__btn-link {
+  padding-left: 12px;
+}
+
+.menu-section__btn-link img {
+  margin-right: 10px;
+}

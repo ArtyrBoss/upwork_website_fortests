@@ -1,0 +1,26 @@
+.request-section .custom-checkbox {
+  padding-top: 15px;
+}
+
+.request-section {
+  position: relative;
+}
+
+.request-section__header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #FFFFFF;
+  margin-top: 0;
+  padding-top: 62px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.request-section__arrow-left {
+  position: fixed;
+  top: 60px;
+  z-index: 15;
+}
